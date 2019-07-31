@@ -1,116 +1,47 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css"
-  integrity="sha384-0c38nfCMzF8w8DBI+9nTWzApOpr1z0WuyswL4y6x/2ZTtmj/Ki5TedKeUcFusC/k" crossorigin="anonymous" />
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-<link rel="stylesheet" href="css/style.css">
-<html lang="en" dir="ltr">
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>Wellcome Page</title>
-</head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="../assets/img/favicon.ico">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>Jemi SMS</title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
+    name='viewport' />
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+  <!-- CSS Files -->
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../assets/css/light-bootstrap-dashboard.css?v=2.0.0 " rel="stylesheet" />
+  <!-- CSS Just for demo purpose, don't include it in your project -->
+
+  <head>
+    <meta charset="utf-8">
+    <title>Wellcome Page</title>
+  </head>
 
 <body>
-
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-    <div class="container">
-      <a href="index.html" class="navbar-brand">Jemi SMS</a>
-      <button class="navbar-toggler" data-toggle="colapse" data-target="#navbarCollapse">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a href="#home" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#explore-head-section" class="nav-link">Explore</a>
-          </li>
-          <li class="nav-item">
-            <a href="#create-head-section" class="nav-link">Create</a>
-          </li>
-          <li class="nav-item">
-            <a href="#share-head-section" class="nav-link">Share</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <header id="home-section">
-    <div class="dark-overlay">
-      <div class="home-inner container">
-        <div class="row">
-          <div class="col-lg-8 d-none d-lg-block">
-            <h1 class="display-4">
-              Build <strong>social profiles</strong> and gain revenue
-              <strong>profits</strong>
-            </h1>
-            <div class="d-flex">
-              <div class="p-4 align-self-start">
-                <i class="fas fa-check fa-2x"></i>
-              </div>
-              <div class="p-4 align-self-end">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed,
-                tempore iusto in minima facere dolorem!
-              </div>
-            </div>
-
-            <div class="d-flex">
-              <div class="p-4 align-self-start">
-                <i class="fas fa-check fa-2x"></i>
-              </div>
-              <div class="p-4 align-self-end">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed,
-                tempore iusto in minima facere dolorem!
-              </div>
-            </div>
-
-            <div class="d-flex">
-              <div class="p-4 align-self-start">
-                <i class="fas fa-check fa-2x"></i>
-              </div>
-              <div class="p-4 align-self-end">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed,
-                tempore iusto in minima facere dolorem!
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="card bg-primary text-center card-form">
-              <div class="card-body">
-                <h3>Sign Up Today</h3>
-                <p>Please fill out this form to register</p>
-                <form>
-                  <div class="form-group">
-                    <input type="text" class="form-control form-control-lg" placeholder="Username" />
-                  </div>
-                  <div class="form-group">
-                    <input type="email" class="form-control form-control-lg" placeholder="Email" />
-                  </div>
-                  <div class="form-group">
-                    <input type="password" class="form-control form-control-lg" placeholder="Password" />
-                  </div>
-                  <div class="form-group">
-                    <input type="password" class="form-control form-control-lg" placeholder="Confirm Password" />
-                  </div>
-                  <input type="submit" value="Submit" class="btn btn-outline-light btn-block" />
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-  </ul {{> header}} <p>{{welcomeText}}</p>
-
-  {{> footer}}
-</body>
-<script type="text/javascript">
+  </ul {{> header}} {{!-- <p>{{welcomeText}}</p> --}} {{!-- {{> footer}} --}} </body> <script type="text/javascript">
+  < !--Core JS Files-- >
+      <script src="../assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
+    <script src="../assets/js/core/popper.min.js" type="text/javascript"></script>
+    <script src="../assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+    <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+    <script src="../assets/js/plugins/bootstrap-switch.js"></script>
+    <!--  Google Maps Plugin    -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+    <!--  Chartist Plugin  -->
+    <script src="../assets/js/plugins/chartist.min.js"></script>
+    <!--  Notifications Plugin    -->
+    <script src="../assets/js/plugins/bootstrap-notify.js"></script>
+    <!-- Control Center for Light Bootstrap Dashboard: scripts for the example pages etc -->
+    <script src="../assets/js/light-bootstrap-dashboard.js?v=2.0.0 " type="text/javascript"></script>
+    <!-- Light Bootstrap Dashboard DEMO methods, don't include it in your project! -->
+    <script src="../assets/js/demo.js"></script>
 
 
-</script>
+    </script>
 
 </html>

@@ -32,7 +32,7 @@ hbs.registerHelper("getCurrentYear", () => {
 });
 
 app.get("/", (req, res) => {
-  res.render("my_account.hbs", {
+  res.render("index.hbs", {
     pageTitle: "My Account",
     welcomeText: "Welcome to Our site"
   });
@@ -95,6 +95,12 @@ app.get("/sent", (req, res) => {
 app.get("/scheduled", (req, res) => {
   res.render("scheduled.hbs", {
     pageTitle: "Scheduled"
+  });
+});
+
+app.get("/inbox", (req, res) => {
+  res.render("inbox.hbs", {
+    pageTitle: "Inbox"
   });
 });
 

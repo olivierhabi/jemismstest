@@ -1,0 +1,23 @@
+<svg width="301.3" height="82.4" xmlns="http://www.w3.org/2000/svg">
+ <style type="text/css">.st0{display:none;enable-background:new    ;}
+	.st1{display:inline;fill:#151B26;}
+	.st2{fill:#151B26;}
+	.st3{fill:#FFFFFF;}</style>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_1" class="st0">
+   <path id="svg_2" d="m115.8,67.5c-10.7,0 -18.3,-5.7 -18.3,-15.1l9.5,0c0.6,4.4 3.2,7.6 9.5,7.6c6.3,0 9.5,-3.2 9.5,-7.6c0,-12.6 -27.8,-4.4 -27.8,-24c0,-9.5 7.6,-15.1 18.3,-15.1c10.1,0 17,5 17.7,14.5l-9.5,0c0,-3.8 -3.2,-6.9 -8.8,-6.9c-5,0 -8.8,2.5 -8.8,7.6c0,12 27.8,4.4 27.8,24c-0.8,7.4 -7.1,15 -19.1,15z" class="st1"/>
+   <path id="svg_3" d="m139.8,25.2l8.8,0l8.8,33.4l8.8,-33.4l8.8,0l8.2,33.4l8.8,-33.4l8.2,0l-13.2,41.6l-8.8,0l-8.2,-30.9l-8.2,30.9l-9.5,0l-12.5,-41.6z" class="st1"/>
+   <path id="svg_4" d="m223.7,24.6c6.9,0 12,3.2 14.5,6.9l0,-6.3l8.8,0l0,41.6l-8.8,0l0,-6.3c-2.5,3.8 -7.6,6.9 -14.5,6.9c-10.7,0 -19.6,-8.8 -19.6,-21.4s8.9,-21.4 19.6,-21.4zm1.9,7.5c-6.3,0 -12.6,5 -12.6,13.9s6.3,14.5 12.6,14.5s12.6,-5 12.6,-13.9c0,-9.4 -6.3,-14.5 -12.6,-14.5z" class="st1"/>
+   <path id="svg_5" d="m281.8,24.6c10.7,0 19.6,7.7 19.6,20.1s-8.8,20.1 -19.6,20.1c-6.9,0 -12,-3.5 -14.5,-6.5l0,24.2l-8.8,0l0,-57.3l8.8,0l0,5.9c2.5,-3 7.5,-6.5 14.5,-6.5zm-1.9,7.1c-6.3,0 -12.6,4.7 -12.6,13s6.3,13 12.6,13c6.3,0 12.6,-4.7 12.6,-13.6c0,-7.7 -6.3,-12.4 -12.6,-12.4z" class="st1"/>
+  </g>
+  <circle id="svg_6" r="40.1" cy="41" cx="40.1" class="st2"/>
+  <text stroke="null" transform="matrix(2.3870763778686523,0,0,2.1716408729553223,-45.68682819604874,-65.5752751082182) " xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="24" id="svg_16" y="57.680906" x="28.752994" stroke-opacity="null" stroke-width="0" fill="#ffffff">J</text>
+  <text stroke="null" transform="matrix(2.785821400246439,0,0,2.604047542121932,-255.36513260466933,-88.77736486081172) " xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="24" id="svg_17" y="60.526118" x="130.869702" stroke-opacity="null" stroke-width="0" fill="#000000">Jemi</text>
+ </g>
+</svg>
